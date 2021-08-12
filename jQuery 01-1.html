@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>01-1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("h1").css("color", "red");
+            $("#text").css("color", "orange");
+            $("[name=text]").css("color", "yellow");
+            $(".text").css("color", "green");
+        });
+    </script>
+</head>
+<body>
+    <h1>text1</h1>
+    <h1 id="text">text2</h1>
+    <h1 name="text">text3</h1>
+    <h1 class="text">text4</h1>  
+    
+    
+</body>
+</html>
